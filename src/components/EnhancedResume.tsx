@@ -12,7 +12,7 @@ const EnhancedResume = forwardRef<HTMLDivElement>((props, ref) => {
         <div className="flex justify-between items-center">
           <div>
             <h1 className="text-2xl font-bold text-gray-800">Mohammed Huzaifah</h1>
-            <p className="text-lg text-blue-600">Generative AI & MLOps Engineer</p>
+            <p className="text-lg text-blue-600">Generative AI & Machine Learning Engineer</p>
             <a 
               href="https://portfolio-huz.vercel.app" 
               target="_blank" 
@@ -187,19 +187,19 @@ const EnhancedResume = forwardRef<HTMLDivElement>((props, ref) => {
                 },
                 {
                   category: "Frameworks & Libraries",
-                  skills: "TensorFlow, PyTorch, Scikit-learn, Keras, NumPy, Pandas, NLTK, LangFlow, LangGraph"
+                  skills: "TensorFlow, PyTorch, Scikit-learn, Keras, NumPy, Pandas, NLTK, BeautifulSoup, OpenCV, LangChain"
                 },
                 {
                   category: "Big Data Tools",
-                  skills: "Apache Spark, Hadoop, SQL, Vector Databases"
+                  skills: "Apache Spark, Hadoop, SQL, Vector DBs"
                 },
                 {
                   category: "Data Visualization",
                   skills: "Matplotlib, Seaborn, Plotly, Tableau, Power BI"
                 },
                 {
-                  category: "Cloud & DevOps",
-                  skills: "AWS, Azure, Docker, Kubernetes, CI/CD, Git, DVC"
+                  category: "Cloud & Peployment",
+                  skills: "AWS, Azure, Docker, Kubernetes, CI/CD, Git, MLflow, Github Actions, Heroku, FLask, DVC"
                 }
               ].map((skill, index) => (
                 <div key={index}>
@@ -219,7 +219,7 @@ const EnhancedResume = forwardRef<HTMLDivElement>((props, ref) => {
               {[
                 {
                   category: "Large Language Models",
-                  skills: "Fine-tuning, Agentic AI, RAG Systems, GANs"
+                  skills: "Fine-tuning, Hyperparameter Tuning,, HuggingFace, CrewAi, Agentic AI, RAG Systems, GANs"
                 },
                 {
                   category: "Neural Networks",
